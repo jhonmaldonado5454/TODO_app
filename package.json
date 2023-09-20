@@ -29,5 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://jhonmaldonado5454.github.io/"
+  "homepage": "https://jhonmaldonado5454.github.io/",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
