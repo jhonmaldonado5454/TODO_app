@@ -11,7 +11,6 @@ The app allows users to create, edit, and delete tasks. Tasks are stored in the 
 ### Technologies used
 
 * React
-* TypeScript
 * CSS
 * React Context
 * React Portals
