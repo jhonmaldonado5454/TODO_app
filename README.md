@@ -59,7 +59,7 @@ The app uses React Context to share data between components. The context is used
 
 ### React Portals
 
-The app uses React Portals to show a component outside of the main DOM. The `DeleteTask` component is shown as a portal so that it is not visible in the task list.
+The app uses React Portals to show a component outside of the main DOM.
 
 ### Local storage
 
