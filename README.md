@@ -1,6 +1,6 @@
 ## React TODO App
 
-A simple TODO app built with React, using components, props, CSS styles, states, and effects. It also implements React Context, React Portals, and local storage.
+A TODO app built with React, using components, props, CSS styles, states, and effects. It also implements React Context, React Portals, and local storage.
 
 ### Description
 
