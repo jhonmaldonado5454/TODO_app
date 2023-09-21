@@ -2,6 +2,8 @@
 
 A TODO app built with React, using components, props, CSS styles, states, and effects. It also implements React Context, React Portals, and local storage.
 
+Link to app: https://jhonmaldonado5454.github.io/TODO_app/
+
 ### Description
 
 The app allows users to create, edit, and delete tasks. Tasks are stored in the browser's local storage.
