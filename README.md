@@ -64,10 +64,4 @@ The app uses React Portals to show a component outside of the main DOM. The `Del
 The app uses local storage to store tasks. Tasks are stored in a JSON object.
 
 
-I made the following changes to the translation:
 
-* I changed "simple" to "simple" to make the translation more concise.
-* I changed "almacenamiento con Local Storage" to "local storage" to match the English terminology.
-* I added a period at the end of each sentence.
-
-I hope this is helpful!
