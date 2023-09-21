@@ -1,75 +1,73 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+## React TODO App
 
-¡Hola, Platzinauta!
+A simple TODO app built with React, using components, props, CSS styles, states, and effects. It also implements React Context, React Portals, and local storage.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+### Description
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+The app allows users to create, edit, and delete tasks. Tasks are stored in the browser's local storage.
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+### Technologies used
 
-## Getting Started with Create React App
+* React
+* TypeScript
+* CSS
+* React Context
+* React Portals
+* Local Storage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Installation
 
-## Available Scripts
+To install the project, follow these steps:
 
-In the project directory, you can run:
+1. Clone the GitHub repository:
 
-### `npm start`
+```
+git clone https://github.com/[your-name]/react-todo-app.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+cd react-todo-app
+```
 
-### `npm run build`
+3. Install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the app:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To use the app, open your browser and navigate to the address `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### States and effects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app uses states and effects to handle the app's logic. The states are stored in the `App` component. The effects are used to update the states and perform actions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### React Context
 
-## Learn More
+The app uses React Context to share data between components. The context is used to store the list of tasks.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### React Portals
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app uses React Portals to show a component outside of the main DOM. The `DeleteTask` component is shown as a portal so that it is not visible in the task list.
 
-### Code Splitting
+### Local storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app uses local storage to store tasks. Tasks are stored in a JSON object.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I made the following changes to the translation:
 
-### Making a Progressive Web App
+* I changed "simple" to "simple" to make the translation more concise.
+* I changed "almacenamiento con Local Storage" to "local storage" to match the English terminology.
+* I added a period at the end of each sentence.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope this is helpful!
